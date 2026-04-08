@@ -1,26 +1,16 @@
 import { useState } from 'react'
 import './App.css'
+import useCurrencyinfo from './mount'
 
 function App() {
   const [amount, setAmount] = useState(1)
   const [fromCurrency, setFromCurrency] = useState('NPR')
   const [toCurrency, setToCurrency] = useState('USD')
+  //Fetching rates to App
+  const rates = useCurrencyinfo(fromCurrency)
 
-  const rates = {
-    USD: 0.00738,
-    EUR: 0.00679,
-    GBP: 0.00598,
-    NPR: 1,
-    JPY: 0.9941,
-    CAD: 0.00996,
-    AUD: 0.01107,
-    CHF: 0.00672,
-    CNY: 0.05314,
-    INR: 0.61624,
-  }
-
-  const convertedAmount = (amount * rates[toCurrency]) / rates[fromCurrency]
-
+  const convertedAmount = amount * (rates[toCurrency]?.value / rates[fromCurrency]?.value)
+  
   return (
     <>
 

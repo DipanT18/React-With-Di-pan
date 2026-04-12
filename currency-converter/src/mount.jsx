@@ -10,7 +10,7 @@ function useCurrencyinfo(currency) {
         .catch((err) => console.log(err))
     }, [currency])
 
-    return data 
-}
+    return data     
+}   
 
 export default useCurrencyinfo;

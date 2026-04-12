@@ -10,7 +10,11 @@ function dipan() {
   // let counter = 5
 
   const addValue = () => { 
-    DipanCounter(counter + 1) 
+    DipanCounter((prevcounter) => prevcounter + 1) 
+    DipanCounter((prevcounter) => prevcounter + 1) 
+    DipanCounter((prevcounter) => prevcounter + 1) 
+    DipanCounter((prevcounter) => prevcounter + 1) 
+    DipanCounter((prevcounter) => prevcounter + 1) 
     // counter = counter + 1
     console.log("Value Added", counter);
   }

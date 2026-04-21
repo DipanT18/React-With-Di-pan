@@ -1,16 +1,18 @@
-# React + Vite
+# redux-toolkit
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Goal
+Todo app with global state management using Redux Toolkit.
 
-Currently, two official plugins are available:
+## Core File Flow
+`src/main.jsx -> Provider(store) -> App -> AddTodo + Todos -> todoSlice`
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Data Flow
+1. `AddTodo` dispatches `addTodo(payload)`.
+2. `todoSlice` reducer appends todo to state.
+3. `Todos` reads `state.todos` with `useSelector`.
+4. Delete button dispatches `removeTodo(id)`.
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Connectivity
+- `App/store.js` configures Redux store.
+- `Features/todo/todoSlice.js` defines state + reducers + actions.
+- UI components interact via `dispatch` and `selector` hooks.

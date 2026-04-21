@@ -1,3 +1,6 @@
+// File logic note: This file is documented for revision-friendly learning.
+// Custom hook: fetches rate table for the selected base currency.
+
 import {useState, useEffect} from 'react'
 
 function useCurrencyinfo(currency) {

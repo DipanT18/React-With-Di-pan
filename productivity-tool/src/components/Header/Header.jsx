@@ -1,3 +1,6 @@
+// File logic note: This file is documented for revision-friendly learning.
+// Header navigation: uses NavLink active state for route-aware styling.
+
 import { NavLink } from "react-router-dom";
 
 const linkClass = ({ isActive }) =>

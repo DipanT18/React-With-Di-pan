@@ -1,3 +1,6 @@
+// File logic note: This file is documented for revision-friendly learning.
+// Router entrypoint: defines route tree and mounts RouterProvider.
+
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import {createBrowserRouter, createRoutesFromElements, Route} from "react-router";

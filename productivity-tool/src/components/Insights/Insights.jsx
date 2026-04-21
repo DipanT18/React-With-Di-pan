@@ -1,3 +1,6 @@
+// File logic note: This file is documented for revision-friendly learning.
+// Insights placeholder page: reserved for future analytics modules.
+
 import React from "react";
 
 function Insights() {

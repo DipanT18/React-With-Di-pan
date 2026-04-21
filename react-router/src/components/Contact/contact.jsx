@@ -1,3 +1,6 @@
+// File logic note: This file is documented for revision-friendly learning.
+// Contact page: static form-like layout and sample contact details.
+
 import React from 'react'
 
 export default function Contact() {

@@ -1,3 +1,6 @@
+// File logic note: This file is documented for revision-friendly learning.
+// Todo module: handles local add/remove task interactions.
+
 import { useState } from "react";
 import React from "react";
 

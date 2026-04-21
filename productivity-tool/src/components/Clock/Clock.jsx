@@ -1,3 +1,6 @@
+// File logic note: This file is documented for revision-friendly learning.
+// Clock widget: keeps local time in state and refreshes every second.
+
 import { useState, useEffect } from "react";
 
 function ClockWidget() {

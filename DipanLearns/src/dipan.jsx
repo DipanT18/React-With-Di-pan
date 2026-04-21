@@ -1,3 +1,6 @@
+// File logic note: This file is documented for revision-friendly learning.
+// Learning component: demonstrates JSX interpolation and static rendering.
+
 function Dipan() {
     const nickname = "Don"
     return (

@@ -1,3 +1,6 @@
+// File logic note: This file is documented for revision-friendly learning.
+// Converter UI: manages amount/coin selection and renders derived converted value.
+
 import { useState } from 'react'
 import './App.css'
 import useFind from './Find'

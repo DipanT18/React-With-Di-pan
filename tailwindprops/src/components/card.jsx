@@ -1,3 +1,6 @@
+// File logic note: This file is documented for revision-friendly learning.
+// Reusable card component: renders person details and optional button text.
+
 import React from "react"
 import ReactDOM from "react-dom"
 

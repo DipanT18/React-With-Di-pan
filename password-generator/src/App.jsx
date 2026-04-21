@@ -1,3 +1,6 @@
+// File logic note: This file is documented for revision-friendly learning.
+// Password generator: composes hooks for generation rules, visibility, and clipboard copy.
+
 import { useState, useCallback, useEffect, useRef } from 'react'
 import './App.css'
 import { use } from 'react'

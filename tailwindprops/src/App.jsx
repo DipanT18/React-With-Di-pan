@@ -1,3 +1,6 @@
+// File logic note: This file is documented for revision-friendly learning.
+// Props demo root: passes different prop sets to reusable Card components.
+
 import './App.css'
 import Card from './components/card.jsx'
 

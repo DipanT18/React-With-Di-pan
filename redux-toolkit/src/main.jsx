@@ -1,3 +1,6 @@
+// File logic note: This file is documented for revision-friendly learning.
+// Provider entrypoint: injects Redux store and mounts app root.
+
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'

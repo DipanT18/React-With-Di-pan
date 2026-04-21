@@ -1,3 +1,6 @@
+// File logic note: This file is documented for revision-friendly learning.
+// About page: static informational content for the routed app.
+
 import React from 'react'
 
 export default function About() {

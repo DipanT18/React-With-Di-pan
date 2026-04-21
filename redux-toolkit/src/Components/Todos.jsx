@@ -1,3 +1,6 @@
+// File logic note: This file is documented for revision-friendly learning.
+// Todo list: selects todos from store and dispatches remove actions.
+
 import React from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 import {removeTodo} from '../Features/todo/todoSlice'

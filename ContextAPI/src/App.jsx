@@ -1,3 +1,6 @@
+// File logic note: This file is documented for revision-friendly learning.
+// App-level composition: wraps login/profile with a shared context provider.
+
 import { useState } from 'react'
 import './App.css'
 import UserContextProvider from './Context/UserContextProvider'

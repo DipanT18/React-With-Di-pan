@@ -1,3 +1,6 @@
+// File logic note: This file is documented for revision-friendly learning.
+// Settings placeholder page: reserved for future preferences.
+
 import React from "react";
 
 function Settings() {

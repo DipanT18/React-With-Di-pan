@@ -1,3 +1,6 @@
+// File logic note: This file is documented for revision-friendly learning.
+// Footer page section: shared links and social icon area.
+
 import React from 'react'
 import {Link} from 'react-router-dom'
 

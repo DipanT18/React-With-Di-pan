@@ -1,3 +1,6 @@
+// File logic note: This file is documented for revision-friendly learning.
+// Custom hook: fetches live coin conversion rates and exposes loading/error state.
+
 import { useState, useEffect } from 'react'
 
 function useFind(base, target) {

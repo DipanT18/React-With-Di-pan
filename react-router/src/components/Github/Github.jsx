@@ -1,3 +1,6 @@
+// File logic note: This file is documented for revision-friendly learning.
+// GitHub page: fetches and displays profile metadata from GitHub API.
+
 import React, { useEffect, useState } from 'react'
 
 function Github() {

@@ -1,3 +1,6 @@
+// File logic note: This file is documented for revision-friendly learning.
+// Login form: captures credentials locally and pushes them to context state.
+
 import React from 'react'
 import { useState, useContext } from 'react'
 import userContext from '../Context/UserContext'

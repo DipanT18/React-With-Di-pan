@@ -1,3 +1,6 @@
+// File logic note: This file is documented for revision-friendly learning.
+// Weather widget: maps API response into iconized weather cards.
+
 import React from 'react'
 import useWeather from "./Mount";
 import {

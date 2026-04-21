@@ -1,3 +1,6 @@
+// File logic note: This file is documented for revision-friendly learning.
+// Slice definition: initial state, reducers, and generated todo actions.
+
 import {createSlice, nanoid } from '@reduxjs/toolkit';
 
 const initialState = {

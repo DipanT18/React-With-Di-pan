@@ -1,16 +1,13 @@
-# React + Vite
+# tailwindprops
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Goal
+Demonstrates passing props into reusable presentational components.
 
-Currently, two official plugins are available:
+## Core File Flow
+`src/main.jsx -> src/App.jsx -> src/components/card.jsx`
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Data Flow
+`App` passes `name`, `position`, and optional `message` props to `Card`; `Card` renders values and fallback button text.
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Connectivity
+`Card` is a reusable UI unit and can be instantiated with different prop combinations.

@@ -1,3 +1,6 @@
+// File logic note: This file is documented for revision-friendly learning.
+// Counter demo: shows functional updates and guarded decrement logic.
+
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'

@@ -1,3 +1,6 @@
+// File logic note: This file is documented for revision-friendly learning.
+// Header navigation: route links and active-state highlighting with NavLink.
+
 import React from 'react'
 import {Link, NavLink} from 'react-router-dom'
 import About from '../About/about';

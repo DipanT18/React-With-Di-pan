@@ -1,3 +1,6 @@
+// File logic note: This file is documented for revision-friendly learning.
+// Dashboard page: toggles inline todo panel visibility.
+
 import React, { useState } from "react";
 import Tasks from "../Tasks/Tasks";
 

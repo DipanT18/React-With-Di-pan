@@ -1,3 +1,6 @@
+// File logic note: This file is documented for revision-friendly learning.
+// Home page: marketing-style hero and CTA content.
+
 import React from 'react'
 import { Link } from 'react-router-dom';
 

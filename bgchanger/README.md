@@ -1,16 +1,15 @@
-# React + Vite
+# bgchanger
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Goal
+Shows state-driven UI styling using dynamic background color changes.
 
-Currently, two official plugins are available:
+## Core File Flow
+`src/main.jsx -> src/App.jsx`
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Data Flow
+1. Color buttons trigger `setColor`.
+2. Updated state is bound to wrapper `style={{ backgroundColor: color }}`.
+3. React re-renders with the new background.
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Connectivity
+All behavior lives in `App.jsx`; `main.jsx` only mounts it.

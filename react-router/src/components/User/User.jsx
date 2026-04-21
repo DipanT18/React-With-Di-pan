@@ -1,3 +1,6 @@
+// File logic note: This file is documented for revision-friendly learning.
+// Dynamic route page: reads URL param and renders selected user id.
+
 import React from 'react'
 import { useParams } from 'react-router-dom'
 

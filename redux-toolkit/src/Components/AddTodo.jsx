@@ -1,3 +1,6 @@
+// File logic note: This file is documented for revision-friendly learning.
+// AddTodo form: dispatches addTodo action with controlled input text.
+
 import React, {useState} from 'react'
 import {useDispatch} from 'react-redux'
 import {addTodo} from '../Features/todo/todoSlice' 

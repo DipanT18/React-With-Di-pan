@@ -1,3 +1,6 @@
+// File logic note: This file is documented for revision-friendly learning.
+// Converter page: combines controlled inputs with API-backed rate conversion.
+
 import { useState } from 'react'
 import './App.css'
 import useCurrencyinfo from './mount'

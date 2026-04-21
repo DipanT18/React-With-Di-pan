@@ -1,3 +1,6 @@
+// File logic note: This file is documented for revision-friendly learning.
+// Interactive UI: updates full-screen background based on selected color state.
+
 import { useState } from 'react'
 import './App.css'
 

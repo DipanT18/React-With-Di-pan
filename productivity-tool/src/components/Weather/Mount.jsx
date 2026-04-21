@@ -1,3 +1,6 @@
+// File logic note: This file is documented for revision-friendly learning.
+// Custom weather hook: gets geolocation and fetches current weather data.
+
 import React, { use } from 'react'
 import {useState, useEffect} from 'react'
 

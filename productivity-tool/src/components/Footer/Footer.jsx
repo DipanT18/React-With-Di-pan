@@ -1,3 +1,6 @@
+// File logic note: This file is documented for revision-friendly learning.
+// Footer component: renders app branding and dynamic year.
+
 function Footer() {
   return (
     <footer className="mt-auto border-t border-white/10 bg-slate-950/75 backdrop-blur-xl">
